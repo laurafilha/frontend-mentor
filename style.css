@@ -1,0 +1,97 @@
+:root {
+  color: #1c232b;
+  background-color: #f2eae2;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  align-self: center;
+  display: flex;
+  width: 600px;
+  height: 450px;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  align-content: space-between;
+}
+
+.textosMain {
+  margin: 32px;
+  align-content: center;
+}
+
+h1 {
+  margin: 0px 0px 30px 0px;
+  width: 236px;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #3d8168;
+  font-family: "Fraunces", serif;
+}
+
+h3 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+h4 {
+  color: #6c7289;
+  margin-left: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+p {
+  color: #6c7289;
+  font-size: 14px;
+}
+
+img {
+  border-radius: 10px 0px 0px 10px;
+  width: 300px;
+}
+
+.precosMain {
+  margin-right: 12px;
+  margin-top: 20px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.botaoAddToCartMain {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-top: 30px;
+  display: flex;
+  width: 236px;
+  height: 48px;
+  background-color: #3d8168;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.botaoAddToCartMainIcon {
+  width: 14px;
+  height: 16px;
+  display: flex;
+  padding: 12px;
+}
