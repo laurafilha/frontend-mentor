@@ -4,6 +4,7 @@
 }
 body,
 html {
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -87,6 +88,11 @@ img {
   justify-content: flex-start;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.botaoAddToCartMain:hover {
+  background-color: #1a4032;
 }
 
 .botaoAddToCartMainIcon {
